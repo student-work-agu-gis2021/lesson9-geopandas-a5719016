@@ -11,6 +11,8 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 # YOUR CODE HERE 1 to read data
+data = gpd.read_file('some_posts.csv')
+
 data = None
 
 
