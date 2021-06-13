@@ -33,6 +33,7 @@ print(data.crs)
 #  - Group the data by userid
 
 #  YOUR CODE HERE 3 to group 
+grouped = data.groupby('userid')
 grouped=None
 
 # CODE FOR TESTING YOUR SOLUTION
@@ -47,6 +48,7 @@ assert len(grouped.groups) == data["userid"].nunique(), "Number of groups should
 # YOUR CODE HERE 4 to set movements
 import pandas as pd
 from shapely.geometry import LineString, Point
+movements = gpd.GeoDataFrame(columns=['userid', 'geometry'])
 movements=None
 # CODE FOR TESTING YOUR SOLUTION
 
