@@ -33,6 +33,7 @@ coordpairs=None
 
 # Create a shapely Polygon using the 'coordpairs' -list
 # YOUR CODE HERE 2 
+poly = Polygon(coordpairs)
 poly = None
 
 # CODE FOR TESTING YOUR SOLUTION
