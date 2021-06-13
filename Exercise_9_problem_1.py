@@ -51,6 +51,7 @@ print(poly.geom_type)
 # Create an empty GeoDataFrame
 geo = None
 # YOUR CODE HERE 3
+geo = gpd.GeoDataFrame(index=[0], columns=['geometry'])
 
 # CODE FOR TESTING YOUR SOLUTION
 
